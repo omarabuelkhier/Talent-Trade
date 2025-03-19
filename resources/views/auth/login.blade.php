@@ -2,7 +2,7 @@
     <!doctype html>
 <html lang="en">
 <head>
-    <title>Login 05</title>
+    <title>Login</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,7 +22,7 @@
         <div class="row justify-content-center">
             <div class="col-md-7 col-lg-5">
                 <div class="wrap">
-                    <div class="img" style="background-image: url(loginAssets/images/login.png);height: 300px"></div>
+                    <div class="img" style="background-image: url('loginAssets/images/login.png');height: 300px"></div>
                     <div class="login-wrap p-4 p-md-5">
                         <div class="d-flex">
                             <div class="w-100">

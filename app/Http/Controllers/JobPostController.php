@@ -35,8 +35,7 @@ class JobPostController extends Controller
      */
     public function index()
     {
-        dd(auth()->user());
-    $JobPosts = JobPost::where('status','=','approved')->paginate(2);
+        $JobPosts = JobPost::where('status','=','approved')->paginate(2);
         $employees = Employee::all();
         return view('JobPosts.index', compact('JobPosts', 'employees'));
     }
